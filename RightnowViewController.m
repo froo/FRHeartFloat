@@ -24,11 +24,11 @@
     return self;
 }
 
--(void)showHistory
-{
-    HistoryViewController *historyView = [[HistoryViewController alloc]init];
-    [self.navigationController pushViewController:historyView animated:YES];
-}
+//-(void)showHistory
+//{
+//    HistoryViewController *historyView = [[HistoryViewController alloc]init];
+//    [self.navigationController pushViewController:historyView animated:YES];
+//}
 
 //Get heart image, launchpoint, heart counts
 -(UIImage*)getHeartImg
