@@ -7,15 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 #import "HeartView.h"
 
-@interface RightnowViewController : UIViewController
+@interface RightnowViewController : UIViewController<AVAudioPlayerDelegate>
 {
     HeartView *heart;
-    UIImage *heartImg;
+    AVAudioPlayer *bgPlayer;
     
     BOOL isShowing;
+    BOOL isPresenting;
+    
+    NSTimer *animateTimer;
+    NSTimer *removeTimer;
+    NSTimer *bgTimer;
 }
 
 @end
