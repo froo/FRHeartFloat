@@ -10,4 +10,4 @@ Copy all the files into your Xcode project, then import `RightnowViewController`
 
 ### What else?
 
-Did I mention there's also a [javasript version](http://chenhui.ch/FRHeartFloat.js.html)?
+Did I mention there's also a [javascript version](http://chenhui.ch/FRHeartFloat.js.html)?
